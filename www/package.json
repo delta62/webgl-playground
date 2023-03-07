@@ -1,0 +1,20 @@
+{
+  "name": "wasm-app",
+  "version": "0.1.0",
+  "description": "a wasm app",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "webgl": "file:../pkg"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
