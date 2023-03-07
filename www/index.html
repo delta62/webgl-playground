@@ -1,11 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en_US">
   <head>
-    <meta charset="utf-8">
-    <title>Hello wasm-pack!</title>
+    <meta charset="utf-8" />
+    <title>Hello world</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+
+      body {
+        background: #000;
+        margin: 0;
+      }
+
+      canvas {
+        display: block;
+      }
+    </style>
   </head>
   <body>
-    <noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
-    <script src="./bootstrap.js"></script>
+    <canvas id="canvas"></canvas>
+    <script src="./main.js"></script>
   </body>
 </html>
